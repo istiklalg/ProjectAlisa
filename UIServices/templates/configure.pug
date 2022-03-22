@@ -1,0 +1,41 @@
+extends layouts/main-layout.pug 
+
+block MAIN_CONTENT 
+    h1(align="center") Configure System Requirements
+    br
+    hr
+    br
+    .container.justify-content-center 
+        form(action="/configure" method="POST")
+            .form-group.row 
+                label(for="ip_address").col-sm-4.col-form-label IP Address :
+                .col-sm-8
+                    input(type="text" name="ip_address" id="ip_address").form-control
+
+            .form-group.row 
+                label(for="ip_address").col-sm-4.col-form-label IP Address :
+                .col-sm-8
+                    input(type="text" name="ip_address" id="ip_address").form-control
+            br
+            hr
+            span(onclick="addNewAppForm('appAddContainer', document.getElementById('appAddContainer').lastChild);").customClicker + add another app
+            //span(onclick="console.log(document.getElementById('appAddContainer').lastChild.id);").customClicker + add another app
+            br
+            #appAddContainer 
+                .form-group.row#formAppRow_1 
+                    label(for="appName").col-sm-2.col-form-label App Name :
+                    .col-sm-2
+                        input(type="text" name="appName" id="appName").form-control
+                    label(for="appIp_1").col-sm-2.col-form-label App IP :
+                    .col-sm-2
+                        input(type="text" name="appIp" id="appIp").form-control
+                    label(for="appPort_1").col-sm-2.col-form-label App Port :
+                    .col-sm-2
+                        input(type="number" name="appPort" id="appPort").form-control
+            
+            hr
+
+            // button row
+            .form-group.row.d-grib.gap-2
+                    input(type="submit" value="Save" style="font-weight: bold;").btn.btn-sm.btn-outline-success
+block FOOTER 

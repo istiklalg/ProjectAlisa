@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+html(lang="en")
+
+    head 
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="/css/bootstrap.min.css")
+        link(rel="stylesheet", href="/css/alisa_style.css")
+        block STYLES 
+        title #{title}
+        block TITLES 
+
+    body 
+        .container-fluid#bodyContainer
+            block MAIN_CONTENT 
+
+
+        script(src="/js/bootstrap.min.js") 
+        script(src="/js/alisa_html_scripts.js") 
+        block SCRIPTS 
+        
+    footer 
+        .container-fluid#footerContainer.fixed-bottom
+            p(align="right") ALISA Syber Security Analysis
+            block FOOTER 

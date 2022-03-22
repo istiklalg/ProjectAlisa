@@ -1,0 +1,7 @@
+
+[INFO - main - 2022-02-21 14:31:49,320 - listener - line 00 - process N/A - thread N/A] : alisa started with [36mdevelopment[0m settings & listen on port : [36m3000[0m
+[INFO - main - 2022-02-21 14:31:59,490 - firstResponder - line 00 - process N/A - thread N/A] : GET request   URL :  & PATH : undefined & QUERY : [object Object]
+[INFO - main - 2022-02-21 14:35:09,174 - listener - line 00 - process N/A - thread N/A] : alisa started with development settings & listen on port : 3000
+[INFO - main - 2022-02-21 17:14:47,934 - listener - line 00 - process N/A - thread N/A] : alisa started with [36mdevelopment[0m settings & listen on port : [36m3000[0m
+[INFO - main - 2022-02-21 17:14:55,507 - firstResponder - line 00 - process N/A - thread N/A] : GET request   URL : /nebu & PATH : undefined & QUERY : [object Object]
+[INFO - main - 2022-02-21 17:15:02,688 - firstResponder - line 00 - process N/A - thread N/A] : GET request   URL :  & PATH : undefined & QUERY : [object Object]

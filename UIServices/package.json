@@ -1,0 +1,24 @@
+{
+  "name": "uiservices",
+  "version": "1.0.0",
+  "description": "Configuration and monitoring screens for alisa project",
+  "main": "alisauientry.js",
+  "scripts": {
+    "test": "nodemon alisauientry.js",
+    "dev": "lite-server",
+    "alisa": "node alisauientry.js"
+  },
+  "author": "istiklal",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}

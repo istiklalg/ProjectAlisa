@@ -1,0 +1,58 @@
+extends layouts/main-layout.pug 
+
+block MAIN_CONTENT 
+    h1(align="center") Monitoring
+    br
+    hr
+    br
+    .container-fluid.table-responsive 
+        table.table.table-sm.table-striped 
+            caption.caption-top Alert Management
+            thead.table-dark
+                tr 
+                    th Date / Time
+                    th Application
+                    th Request
+                    th Anomaly Score
+                    th Source IP
+                    th Destination Port
+                    th Add to Whitelist
+            tbody 
+                tr
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+    br
+    hr
+    br
+    .container-fluid.table-responsive 
+        table.table.table-sm.table-striped 
+            caption.caption-top Whitelist Management
+            thead.table-dark 
+                tr 
+                    th Added at
+                    th Last Seen
+                    th Application
+                    th Request
+                    th LAst Anomaly Score 
+            tbody 
+                tr
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+                    td ..
+    br
+    hr
+    br
+    .row.justify-content-center 
+        .col-md-6 
+            .row 
+                p Graph 1
+        .col-md-6 
+            .row
+                p Graph 2

@@ -1,0 +1,35 @@
+/*
+* @author : istiklal
+*/
+
+body {
+    margin-top: 25px;
+    background-color: lightgrey;
+    font-size: 12pt;
+}
+
+.bordered {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px grey;
+    min-height: 500px;
+}
+
+#footerContainer {
+    color: grey;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.customClicker {
+
+}
+
+.customClicker:hover {
+    cursor: pointer;
+    color: blue;
+}

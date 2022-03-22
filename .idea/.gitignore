@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# files that include critical information
+Settings/
+# files that we don't need to share
+documents/
+Logs/
+# environment
+__pycache__/
+venvalisa/
+.env
+# node libraries for UI
+UIServices/node_modules
+UIServices/configurations.json
+# ide files
+.idea/
+.vscode/
