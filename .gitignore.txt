@@ -9,7 +9,7 @@ venvalisa/
 .env
 # node libraries for UI
 UIServices/node_modules
-UIServices/configurations.json
+UIServices/configurations.js
 # ide files
 .idea/
 .vscode/
