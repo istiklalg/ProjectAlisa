@@ -12,24 +12,31 @@ block MAIN_CONTENT
                 br
                 hr
                 br
-                ul 
-                    li Basic configuration and initialization process
-                    li ###
-                    li ###
-                    li ###
-                    li ###
+                .innerScrollable 
+                    ul 
+                        each line in confTexts
+                            li #{line}
             .col-md-5.bordered
                 a(href="/monitor") 
                     h3(align="center") Monitor Alisa
                 br
                 hr
                 br
-                ul 
-                    li ###
-                    li ###
-                    li ###
-                    li ###
-                    li ###
+                .innerScrollable 
+                    ul 
+                        each line in monTexts
+                            li #{line}
+        
+        .row.justify-content-center 
+            .col-md-11.bordered 
+                h3(align="center" style="color:blue;") Applications Which We Currently Tracing 
+                br
+                hr 
+                br
+                .innerScrollable 
+                    ul 
+                        each app in tracingApps 
+                            li #{app}
 
     
 

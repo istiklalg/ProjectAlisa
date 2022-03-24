@@ -9,7 +9,7 @@ const logger = new Logger("monitoringRoutes");
 const express = require("express");
 const router = express.Router();
 
-router.use((req, res, next) => {
+router.get("/", (req, res, next) => {
 //router.use("/monitor", (req, res, next) => {
     //res.send("<h1 align='center'>Monitoring part</h1>");
 

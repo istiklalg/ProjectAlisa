@@ -1,14 +1,14 @@
 # files that include critical information
-Settings/
+Settings/*
 # files that we don't need to share
 documents/
-Logs/
+Logs/*
 # environment
 __pycache__/
 venvalisa/
 .env
 # node libraries for UI
-UIServices/node_modules
+UIServices/node_modules/
 UIServices/configurations.js
 # ide files
 .idea/

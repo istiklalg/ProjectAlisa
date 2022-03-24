@@ -17,6 +17,10 @@ body {
     min-height: 500px;
 }
 
+.innerScrollable {
+    overflow: auto;
+}
+
 #footerContainer {
     color: grey;
 }
@@ -26,10 +30,11 @@ body {
 }
 
 .customClicker {
-
+    font-weight: bold;
 }
 
 .customClicker:hover {
     cursor: pointer;
+    font-weight: bold;
     color: blue;
 }

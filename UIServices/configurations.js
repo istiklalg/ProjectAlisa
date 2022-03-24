@@ -12,3 +12,18 @@ module.exports.PORT = 3000;
 module.exports.LOG_FILE = "";
 module.exports.STREAM_LOGGING_LEVEL = 10;
 module.exports.FILE_LOGGING_LEVEL = 10;
+
+
+
+// String lists to show main screen as explanations for configure and monitor parts
+module.exports.CONFIGURE_SCREEN_EXPLANATIONS = [
+    "Basic configuration and initialization process",
+    "###"
+]
+module.exports.MONITOR_SCREEN_EXPLANATIONS = [
+    "Monitor what happened",
+    "###"
+]
+module.exports.TRACING_APPS = [
+    "istiklal", "Kutay", "Cenk"
+]

@@ -41,8 +41,7 @@ alisaApp.use("/configure", configurationRoutes);
 alisaApp.use("/monitor", monitoringRoutes);
 // handler middleware for url "/" HOMEPAGE
 alisaApp.use("/", homeRoutes);
-// handler for non existing urls
-alisaApp.use((req, res) => { res.status(404).render("404", {title:"NOT FOUND"}); });
+
 
 alisaApp.listen(env.PORT, () => {
     logger.info(`alisa started with \x1b[36m${env.IN_PRODUCTION?"production":"development"}\x1b[0m settings & listen on port : \x1b[36m${env.PORT}\x1b[0m`, "listener");
