@@ -1,8 +1,10 @@
 # files that include critical information
-Settings/*
+Settings/passes.py
+#Settings/settings.py
 # files that we don't need to share
 documents/
-Logs/*
+Logs/alisa-logs.log
+Logs/alisa-ui-logs.log
 # environment
 __pycache__/
 venvalisa/
